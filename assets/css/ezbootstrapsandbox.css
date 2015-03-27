@@ -1,0 +1,241 @@
+.intro{
+	text-align: center;
+	margin-bottom: 20px
+}
+
+body{
+  background-color: #f1f1f1;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Days One', sans-serif 
+}
+
+a {
+	color: #3b5998;
+	cursor: pointer;
+}
+
+a:hover{
+	color: #3b5998;
+}
+
+.tw-cdn-1{
+    display: inline-block;
+    vertical-align: middle;
+    background: transparent url(../img/dist/tw-sprite.png) no-repeat 0 0;
+    background-repeat: no-repeat;
+    /* Xbackground-size: auto; */
+}
+
+
+/* TODOdel */
+.Xtw-cdn-2{
+background-image: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y1/r/LVx-xkvaJ0b.png);
+background-repeat: no-repeat;
+background-size: auto;
+}
+
+.tw-widget-wrapper{
+    font-family: "Helvetica Neue",Roboto,"Segoe UI",Calibri,sans-serif;
+	font-size: 14px;
+   /* border: 1px solid #000; */
+    padding:0px;
+	width:400px;
+	margin: 0 auto
+}
+
+.tw-header{
+    height:35px;
+    width:100%;
+  /*  background-color: #f1f1f1; */
+  background-color: #fff; 
+    padding:3px 5px 0 5px
+}
+
+.tw-header-left{
+    float:left;
+    font-size:14px;
+    line-height:1.5;
+    font-weight:bold
+}
+
+.tw-header-right{
+    float:right
+}
+
+a.tw-follow-button{
+    color:#333
+    font-size:10px;
+    font-weight: bold;
+}
+
+.tw-follow-button{
+    display: inline-block;
+    padding: 0 5px 0 3px;
+    font: bold 11px/18px 'Helvetica Neue',Arial,sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #eee;
+    background-image: -webkit-linear-gradient(#fff,#dedede);
+    background-image: linear-gradient(#fff,#dedede);
+    border: #ccc solid 1px;
+    border-radius: 3px;
+}
+
+.tw-follow-button:hover{
+    text-decoration: none;
+}
+
+.tw-button-bird{
+    width: 16px;
+    height: 16px;
+    margin: 0 3px 0 0;
+    background-position: -73px -160px;
+}
+
+.tw-stream-wrap{
+/*background-color: #f4f4f4; */
+background-color: #fff;
+	 height: 400px;
+	 overflow: auto;
+	 margin-top: 3px;
+	 margin-bottom:3px;
+}
+
+.tw-stream{
+  width: 100%;
+ /* background-color: red */
+}
+
+.tw-stream-divider{
+	border-bottom: 1px solid #e8e8e8
+}
+
+.tw-stream-row{
+ /* background-color: yellow; */
+	margin-left:58px;
+	margin-bottom:5px;
+	padding: 7px 10px 0 10px
+}
+
+.tw-stream-item-header{
+
+}
+
+.tw-stream-item-header a:hover{
+text-decoration: none;
+}
+
+.tw-avatar{
+	background-color: #666; /* TODO Del */
+	float: left;
+	margin-top: 3px;
+	margin-left: -58px;
+	width: 48px;
+	height: 48px;
+	border-radius: 5px;
+}
+
+.tw-fullname{
+	font-weight: bold;
+	color: #292f33;
+}
+
+a:hover  .tw-fullname{
+text-decoration: underline;
+}
+
+.tw-user-name, .tw-time{
+  font-size: 13px;
+  color: #8899a6;
+}
+
+.tw-time{
+	margin-left:5px
+}
+
+.tw-tweet-text{
+  margin: 0
+}
+
+.tw-stream-item-footer{
+   margin-top:5px
+}
+
+.tw-stream-item-footer a:hover{
+	text-decoration:none
+}
+
+.tw-stream-item-footer div{
+  float:left
+}
+
+
+.tw-icon{
+opacity: .5;
+  overflow:hidden;
+  height: 20px;
+  width: 24px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.tw-icon:hover{
+	opacity: 1
+}
+/* reply */
+.tw-action-reply{
+margin-right: 31px;
+}
+
+.tw-icon-reply{
+  background-position: -79px -83px;
+}
+
+.tw-icon-reply:hover{
+opacity: 1;
+  background-position: -102px -83px;
+}
+
+/* retweet */
+
+.tw-action-retweet{
+margin-right: 31px;
+}
+
+.tw-icon-retweet{
+  background-position: -79px -99px;
+}
+
+.tw-icon-retweet:hover{
+  background-position: -106px -99px;
+}
+/* favorite */
+.tw-action-retweet{
+margin-right: 31px;
+}
+.tw-icon-favorite{
+  background-position: -78px -120px;
+}
+
+.tw-icon-favorite:hover{
+  background-position: -99px -119px;
+}
+
+/* more - note: there is not more ... in the (current) sprite */
+
+.tw-action-more{
+  diplay: none
+}
+
+
+.tw-footer{
+    height:35px;
+    width:100%;
+   /* background-color: #f1f1f1; */
+   background-color: #fff;
+    padding:3px 5px 0 5px
+}
