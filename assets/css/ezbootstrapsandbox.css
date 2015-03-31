@@ -23,17 +23,9 @@ a:hover{
 .tw-cdn-1{
     display: inline-block;
     vertical-align: middle;
-    background: transparent url(../img/dist/tw-sprite.png) no-repeat 0 0;
+    background: transparent url(http://platform.twitter.com/images/sprite.png) no-repeat 0 0;
     background-repeat: no-repeat;
     /* Xbackground-size: auto; */
-}
-
-
-/* TODOdel */
-.Xtw-cdn-2{
-background-image: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y1/r/LVx-xkvaJ0b.png);
-background-repeat: no-repeat;
-background-size: auto;
 }
 
 .tw-widget-wrapper{
