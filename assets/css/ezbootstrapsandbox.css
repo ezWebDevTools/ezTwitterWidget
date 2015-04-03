@@ -11,15 +11,6 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Days One', sans-serif 
 }
 
-a {
-	color: #3b5998;
-	cursor: pointer;
-}
-
-a:hover{
-	color: #3b5998;
-}
-
 .tw-cdn-1{
     display: inline-block;
     vertical-align: middle;
@@ -35,6 +26,15 @@ a:hover{
     padding:0px;
 	width:400px;
 	margin: 0 auto
+}
+
+.tw-widget-wrapper a {
+	color: #3b5998;
+	cursor: pointer;
+}
+
+.tw-widget-wrapper a:hover{
+	color: #3b5998;
 }
 
 .tw-header{
@@ -57,7 +57,7 @@ a:hover{
 }
 
 a.tw-follow-button{
-    color:#333
+    color:#333;
     font-size:10px;
     font-weight: bold;
 }
@@ -217,7 +217,7 @@ margin-right: 31px;
   background-position: -99px -119px;
 }
 
-/* more - note: there is not more ... in the (current) sprite */
+/* more - note: there is no more ... (image) in the (current) sprite */
 
 .tw-action-more{
   diplay: none
@@ -229,5 +229,5 @@ margin-right: 31px;
     width:100%;
    /* background-color: #f1f1f1; */
    background-color: #fff;
-    padding:3px 5px 0 5px
+    padding:5px 5px 0 7px
 }
